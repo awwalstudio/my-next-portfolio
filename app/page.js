@@ -31,6 +31,31 @@ export default function Home() {
           {/* Add more projects here */}
         </div>
       </section>
+
+      <section className="px-4 py-12 bg-white">
+  <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Projects</h2>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+    
+    {/* Project 1 */}
+    <div className="bg-gray-100 p-6 rounded-lg shadow">
+      <h3 className="text-xl font-semibold mb-2">My Next.js Portfolio</h3>
+      <p className="text-gray-600 mb-4">
+        A personal portfolio website built with Next.js, Tailwind CSS, and deployed on Vercel.
+      </p>
+      <a
+        href="https://github.com/awwalstudio/my-next-portfolio"
+        target="_blank"
+        className="text-blue-600 hover:underline"
+      >
+        🔗 View on GitHub
+      </a>
+    </div>
+
+    {/* Add more project cards here */}
+  </div>
+</section>
+
     </main>
   )
 }
