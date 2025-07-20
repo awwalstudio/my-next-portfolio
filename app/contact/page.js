@@ -10,7 +10,7 @@ export default function Contact() {
 
       {!submitted ? (
         <form
-          action="https://formspree.io/f/xvgqzqaw"  // <- replace with your form URL
+          action="https://formspree.io/f/xvgqzqaw"  // <- replace this
           method="POST"
           onSubmit={() => setSubmitted(true)}
           className="w-full max-w-md space-y-4"
@@ -32,3 +32,4 @@ export default function Contact() {
     </main>
   )
 }
+
