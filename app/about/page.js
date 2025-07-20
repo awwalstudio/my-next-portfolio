@@ -7,22 +7,21 @@ export default function About() {
       </p>
 
       <a
-  href="/Awwal Mukhzar Resume.pdf"
-  download
-  className="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
->
-  📄 Download Resume
-</a>
+        href="/Awwal-Mukhzar-Resume.pdf"
+        download
+        className="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition mt-6"
+      >
+        📄 Download Resume
+      </a>
 
-<a
-  href="https://www.linkedin.com/in/awwal-mukhzar-1b5231192/"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-block bg-gray-800 text-white px-6 py-2 rounded hover:bg-gray-900 transition ml-4"
->
-  🔗 Connect on LinkedIn
-</a>
-
+      <a
+        href="https://www.linkedin.com/in/awwal-mukhzar-1b5231192/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block bg-gray-800 text-white px-6 py-2 rounded hover:bg-gray-900 transition mt-4"
+      >
+        🔗 Connect on LinkedIn
+      </a>
     </main>
   )
 }
